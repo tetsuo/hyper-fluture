@@ -1,0 +1,27 @@
+{
+  "name": "hyper-fluture",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/middleware.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/tetsuo/hyper-fluture",
+  "dependencies": {
+    "fluture": "^12.2.0",
+    "fp-ts": "^2.5.3",
+    "fp-ts-fluture": "^0.6.5"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.11.1",
+    "typescript": "^3.8.3"
+  }
+}
